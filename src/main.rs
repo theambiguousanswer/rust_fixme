@@ -43,7 +43,7 @@ fn main() {
         Color { red: 0, green: 3, blue: 254 },
         Color { red: 0, green: 0, blue: 0 },
     ].iter() {
-        // Hint : Fix the code so you can print it using {}
+        /// Switched code from displaying the raw values, no text description, to showing it more neatly via accessing elements in the struc instead of just spitting them out.
         println!("red: {},green: {},blue: {}", color.red, color.green, color.blue);
     }
 }
